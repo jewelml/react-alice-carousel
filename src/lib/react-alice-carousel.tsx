@@ -1,5 +1,5 @@
 import React from 'react';
-import VS, { EventData } from 'vanilla-swipe';
+import VS, { EventData } from '@jewel_ml/vanilla-swipe';
 import { defaultProps } from './defaultProps';
 import * as Views from './views';
 import * as Utils from './utils';

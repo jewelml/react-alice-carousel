@@ -1,5 +1,5 @@
 {
-  "name": "react-alice-carousel",
+  "name": "@jewel_ml/react-alice-carousel",
   "version": "2.7.0",
   "description": "React image gallery, react slideshow carousel, react content rotator",
   "main": "./lib/react-alice-carousel.js",
@@ -63,9 +63,6 @@
   "peerDependencies": {
     "react": ">=15.4"
   },
-  "dependencies": {
-    "vanilla-swipe": "^2.4.1"
-  },
   "devDependencies": {
     "@babel/cli": "7.19.3",
     "@babel/core": "7.20.2",
@@ -126,5 +123,8 @@
       "pre-commit": "npm run precommit",
       "pre-push": "npm run precommit"
     }
+  },
+  "dependencies": {
+    "@jewel_ml/vanilla-swipe": "^2.4.1"
   }
 }
